@@ -1,0 +1,28 @@
+.meet_img img {
+  max-width: 100%;
+}
+.meet_name {
+  color: #16a4fa;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.meet_post {
+  color: #808396;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.meet_content p {
+  color: #1c2745;
+  font-size: 16px;
+  font-weight: 500;
+}
+.column_reverse{
+  flex-direction: row-reverse;
+}
+.teamrole span{
+  margin-bottom: 0;
+}
+.rolename{
+  margin-bottom: 12px;
+}

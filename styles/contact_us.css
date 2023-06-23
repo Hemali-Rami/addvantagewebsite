@@ -1,0 +1,291 @@
+#ADDVantage-brands {
+  overflow: hidden;
+}
+#contact-hero {
+  background-image: url(/images/bg-03.jpg);
+  padding-top: 160px;
+  padding-bottom: 232px;
+  position: relative;
+  z-index: 3;
+}
+.ADDVantage-brands-txt {
+  text-align: center;
+}
+#contact-hero h1 {
+  width: 208px;
+  height: 49px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 49px;
+  color: #ffffff;
+}
+#contact-hero p {
+  max-width: 800px;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+#contacts-3 {
+  background: url("/images/health-machine-full.png") no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  z-index: 5;
+  background: #f6f6f6;
+  position: relative;
+}
+.full-health-machine-img {
+  position: absolute;
+  /* bottom: 223px;*/
+  right: 9px; 
+  bottom: 118px;
+  /* right: -95px; */
+  z-index: 0;
+  width: 100%;
+  max-width: 383px;
+  max-height: 1300px;
+}
+/* android section  */
+.android-section {
+  position: relative;
+  height: 500px;
+  margin: -290px auto 0;
+  max-width: 720px;
+  width: 100%;
+  z-index: 10;
+}
+.android-wrapper {
+  width: 408px;
+  height: 408px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  position: absolute;
+}
+.android-wrapper.left {
+  left: 0;
+  top: 54%;
+  transform: translate(-33px, -50%);
+}
+.android-wrapper.right {
+  right: 0;
+  top: 54%;
+  transform: translate(33px, -50%);
+}
+.android-wrapper.center {
+  width: 492px;
+  height: 492px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.android-wrapper img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+.android-wrapper img.android-screen {
+  transform: translate(calc(-50% - 5px), -50%) scale(0.91);
+}
+/* android section  */
+
+/* contact form section  */
+.contact-form-wrapper {
+  text-align: center;
+  padding-top: 43px;
+  z-index: 2;
+  position: relative;
+}
+.contact-form-wrapper h1 {
+  width: 440px;
+  height: 58px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #283034;
+}
+
+.contact-form-wrapper p {
+  max-width: 530px;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #283034;
+}
+
+.contact-form-wrapper .contact-form {
+  margin: 42px auto 0;
+  padding: 48px 36px;
+  background: #ffffff;
+  max-width: 924px;
+  width: calc(100% - 10px);
+  z-index: 10;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.contact-form .form-group {
+  text-align: left;
+}
+.contact-form select option:hover {
+  background: #202020;
+  color: #fff;
+}
+.contact-form .btn-group {
+  width: 100% !important;
+}
+.contact-form .custom-select {
+  text-align: left;
+  height: 45px !important;
+  margin: 0;
+}
+.contact-form .multiselect-container {
+  width: 100%;
+}
+.contacts-3 .contact-form label {
+  color: #283034;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.contact-form .form-control {
+  border: 1px solid #d0d0da;
+  height: 45px;
+}
+.contact-form .form-control::placeholder,
+.contact-form .form-control::-moz-placeholder,
+.contact-form .form-control::-webkit-input-placeholder {
+  color: #808396;
+}
+.contact-form .contact-form-footer {
+  padding-top: 36px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contact-form .contact-form-footer .submit-btn {
+  display: flex;
+  justify-content: center;
+  padding: 12px 16px;
+  width: 180px;
+  height: 45px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background: #319ed7;
+  border-radius: 6px;
+  border: 1px solid #319ed7;
+}
+.contact-form .contact-form-footer .submit-btn:hover {
+  border-color: #319ed7;
+  color: #319ed7;
+  background: transparent;
+}
+.contact-form .form-control,
+.contact-form .custom-select,
+.contact-form .input-group-text {
+  margin-bottom: 0 !important;
+}
+.contact-form .form-group {
+  margin-bottom: 22px !important;
+}
+/* contact form section  */
+
+/* select2 select  */
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable:hover {
+  background: #16a4fa;
+  color: #fff;
+}
+.select2-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.select2-results__options::-webkit-scrollbar {
+  display: none;
+}
+.select2-container--default .select2-selection--single {
+  border: 1px solid #d0d0da !important;
+}
+.select2-container--open .select2-selection--single {
+  border-color: #6a7685 !important;
+}
+.select2-container .select2-selection--single,
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  line-height: 45px;
+  height: 45px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  padding: 0 15px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable {
+  background: #ddd;
+  color: #283034;
+}
+/* select2 select  */
+/* ant select css start */
+.contact-form .ant-select {
+  width: 100%;
+}
+.contact-form
+  .ant-select-single
+  .ant-select-selector
+  .ant-select-selection-item {
+  line-height: 44px;
+  color: #444;
+  font-size: 17px;
+  font-weight: 300;
+}
+.contact-form .ant-select-selector {
+  height: 45px !important;
+  border: 1px solid #d0d0da !important;
+  padding: 0 15px !important;
+}
+.contact-form .ant-picker {
+  width: 100%;
+  border: 1px solid #d0d0da;
+  height: 45px;
+  color: #444;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 0 15px;
+}
+.contact-form .ant-picker .ant-picker-input > input {
+  color: #444;
+  font-size: 17px;
+  font-weight: 300;
+  opacity: 1;
+}
+/* ant datepicker css start */
+.mb-22 {
+  margin-bottom: 22px;
+}
