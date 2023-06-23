@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import Image from "next/image";
 function TeamMembers() {
   const [teamMembers, setTeamMembers] = useState([]);
 
@@ -30,9 +30,11 @@ function TeamMembers() {
                 data-aos-delay={dataAosDelay}
               >
                 <div className="meet_img">
-                  <img
+                  <Image
                     src={`/images/${member.meamberimg}.jpg`}
                     alt={member.membername}
+                    width={445}
+                    height={520}
                   />
                 </div>
               </div>

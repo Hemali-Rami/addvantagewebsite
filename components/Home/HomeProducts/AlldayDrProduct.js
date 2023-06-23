@@ -1,5 +1,6 @@
 // import { Element, scroller } from "react-scroll";
 import Link from "next/link";
+import Image from "next/image";
 const brandsecdata = [
   {
     sectiontitle: "alldayDr",
@@ -70,11 +71,14 @@ const AlldayDrProduct = () => {
                   data-aos="fade-left"
                   data-aos-delay="400"
                 >
-                  <img
+                  {/* <img
                     className="img-fluid"
                     src={`/images/${section.secimg}.png`}
                     alt="alldatdr-content"
-                  />
+                  /> */}
+                  <Image className="img-fluid width_auto"
+                    src={`/images/${section.secimg}.png`}
+                    alt="alldatdr-content" width={794} height={450}/>
                 </div>
               </div>
             </div>

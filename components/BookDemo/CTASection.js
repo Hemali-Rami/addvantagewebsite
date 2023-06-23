@@ -21,7 +21,9 @@ const CTASection = () => {
           <div className="col-lg-7">
             <div className="cta-1-txt pr-25">
               {/* <!-- Title --> */}
-              <h4 className="h4-sm">Let's make something great together</h4>
+              <h4 className="h4-sm">
+                Let&apos;s make something great together
+              </h4>
 
               {/* <!-- Text --> */}
               <p className="p-md"></p>

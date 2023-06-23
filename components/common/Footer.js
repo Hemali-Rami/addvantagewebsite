@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 const Footer = () => {
   const [visible, setVisible] = useState(false);
 
@@ -37,10 +38,10 @@ const Footer = () => {
               {/* <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be  */}
               {/* displayed (e.g 350 x 82  pixels) --> */}
               <Link href="#ADDVantage-brands" className="logo-black">
-                <img
+                <Image
                   src="/images/logo.svg"
-                  width="175"
-                  height="41"
+                  width={175}
+                  height={41}
                   alt="ADDVantage-footer-logo"
                 />
               </Link>

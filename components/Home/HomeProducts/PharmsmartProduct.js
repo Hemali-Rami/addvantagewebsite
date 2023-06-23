@@ -1,18 +1,19 @@
 // import { Element } from "react-scroll";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const brandsecdata = [
   {
     sectiontitle: "Pharmsmart",
     sectionpara: [
-      <React.Fragment>
+      <>
         Pharmsmart is home to the most innovative electronic CD register yet.
-      </React.Fragment>,
-      <React.Fragment>
+      </>,
+      <>
         Pharmsmart is an all-in-one pharmacy app built by pharmacists for
         pharmacists to save time, money, and make life a lot easier.
-      </React.Fragment>,
-      <React.Fragment>
+      </>,
+      <>
         The app contains free modules built to help our lovely pharmacy
         community. These include:
         <br />
@@ -26,7 +27,7 @@ const brandsecdata = [
         <br />
         - Staff Clocking In/Out
         <br />
-      </React.Fragment>,
+      </>,
     ],
     btnlink: "https://pharmsmart.co.uk",
     secimg: "pharmsmart-product",
@@ -45,10 +46,12 @@ const PharmsmartProduct = () => {
                 data-aos="fade-left"
                 data-aos-delay="400"
               >
-                <img
+                <Image
                   className="img-fluid"
                   src={`/images/${section.secimg}.svg`}
                   alt="pharmsmart-content"
+                  width={794}
+                  height={596}
                 />
               </div>
             </div>

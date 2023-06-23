@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 const HomeAccreditations = () => {
   return (
@@ -45,10 +46,16 @@ const HomeAccreditations = () => {
                 {/* Icon*/}
                 <div className="sbox-1-ico">
                   <Link href="https://alldaydr-static-assets.s3.eu-west-2.amazonaws.com/bsi_certificate.pdf">
-                    <img
+                    {/* <img
                       height="70"
                       src="/images/iso-27001-logo.png"
                       alt="service-icon"
+                    /> */}
+                    <Image
+                      height={70}
+                      src="/images/iso-27001-logo.png"
+                      alt="service-icon"
+                      width={137}
                     />
                   </Link>
                 </div>
@@ -93,7 +100,13 @@ const HomeAccreditations = () => {
                 {/* Icon*/}
                 <div className="sbox-1-ico">
                   <Link href="https://www.cqc.org.uk/location/1-5258100230">
-                    <img height="70" src="/images/cqc.png" alt="service-icon" />
+                    {/* <img height="70" src="/images/cqc.png" alt="service-icon" /> */}
+                    <Image
+                      height={70}
+                      src="/images/cqc.png"
+                      alt="service-icon"
+                      width={189}
+                    />
                   </Link>
                 </div>
 

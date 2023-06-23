@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Select } from "antd";
 import { Formik } from "formik";
 import { ValidateInquiryContactForm } from "./ValidateContactForm";
@@ -10,6 +10,7 @@ import {
   successToast,
 } from "../../utilities/utils";
 import { submitInquiryAPI } from "../../Services/businessPartners";
+import Image from "next/image";
 
 const ContactForm = () => {
   const [initialValues, setInitialValues] = useState({
@@ -85,53 +86,67 @@ const ContactForm = () => {
           data-aos-delay="600"
         >
           <div className="android-wrapper left">
-            <img
+            <Image
               src="/images/android-screen-3.png"
               className="android-screen"
               alt="screen"
+              width={189}
+              height={408}
             />
-            <img
+            <Image
               src="/images/android-frame.png"
               className="android-frame"
               alt="frame"
+              width={408}
+              height={408}
             />
           </div>
           <div className="android-wrapper center">
-            <img
+            <Image
               src="/images/android-screen-1.png"
               className="android-screen"
               alt="screen"
+              width={228}
+              height={492}
             />
-            <img
+            <Image
               src="/images/android-frame.png"
               className="android-frame"
               alt="frame"
+              width={492}
+              height={492}
             />
           </div>
           <div className="android-wrapper right">
-            <img
+            <Image
               src="/images/android-screen-2.png"
               className="android-screen"
               alt="screen"
+              width={189}
+              height={408}
             />
-            <img
+            <Image
               src="/images/android-frame.png"
               className="android-frame"
               alt="frame"
+              width={408}
+              height={408}
             />
           </div>
         </div>
-        <img
+        <Image
           src="/images/health-machine-full.png"
           className="full-health-machine-img"
           alt=""
+          width={353}
+          height={1300}
         />
         <div className="contact-form-wrapper">
           {/* <!-- Title --> */}
           <h2 className="h2-xs m-auto">Get in touch with us!</h2>
           {/* <!-- Text --> */}
           <p className="p-xl m-auto">
-            Feel free to ask. We're always happy to help out.
+            Feel free to ask. We &apos; re always happy to help out.
           </p>
           <div className="contact-form">
             <Formik

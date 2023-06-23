@@ -10,6 +10,7 @@ import {
 } from "../../utilities/utils";
 import { addSubmitRequestFromADDV } from "../../Services/businessPartners";
 import { Checkbox } from "antd";
+import Image from "next/image";
 
 const Meettheform = () => {
   const [initialValues, setInitialValues] = useState({
@@ -125,7 +126,7 @@ const Meettheform = () => {
 
             {/* <!-- Text --> */}
             <p className="p-lg">
-              Feel free to ask. We're always happy to help out.
+              Feel free to ask. We&apos;re always happy to help out.
             </p>
           </div>
         </div>
@@ -315,9 +316,10 @@ const Meettheform = () => {
                               );
                             }}
                           >
-                            <img
+                            <Image
                               src="/images/alldaydr-logo.svg"
-                              height="22"
+                              height={22}
+                              width={92}
                               alt="footer-logo"
                             />
                           </Checkbox>
@@ -357,9 +359,10 @@ const Meettheform = () => {
                             }}
                           >
                             {/* healthya */}
-                            <img
+                            <Image
                               src="/images/healthya-logo.svg"
-                              height="28"
+                              height={28}
+                              width={88}
                               alt="footer-logo"
                             />
                           </Checkbox>
@@ -400,9 +403,10 @@ const Meettheform = () => {
                             }}
                           >
                             {/* Applocum */}
-                            <img
+                            <Image
                               src="/images/applocum-logo.svg"
-                              height="22"
+                              height={22}
+                              width={97}
                               alt="footer-logo"
                             />
                           </Checkbox>
@@ -443,9 +447,10 @@ const Meettheform = () => {
                             }}
                           >
                             {/* Applocum */}
-                            <img
+                            <Image
                               src="/images/pharmasmart-logo.svg"
-                              height="22"
+                              height={22}
+                              width={126}
                               alt="footer-logo"
                             />
                           </Checkbox>

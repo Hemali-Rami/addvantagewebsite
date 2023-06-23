@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 const brandsecdata = [
   {
     sectiontitle: "ADDVantage MINDS",
@@ -29,10 +30,17 @@ const ADDvtangeMindsProduct = () => {
                   data-aos="fade-right"
                   data-aos-delay="400"
                 >
-                  <img
+                  {/* <img
                     className="img-fluid"
                     src={`/images/${section.secimg}.png`}
                     alt="applocum-content"
+                  /> */}
+                  <Image
+                    className="img-fluid width_auto"
+                    src={`/images/${section.secimg}.png`}
+                    alt="applocum-content"
+                    width={794}
+                    height={596}
                   />
                 </div>
               </div>

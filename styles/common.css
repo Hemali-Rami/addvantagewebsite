@@ -7533,3 +7533,6 @@ div#__next-build-watcher {
     transform: none !important;
   }
 }
+.width_auto {
+  width: auto !important;
+}

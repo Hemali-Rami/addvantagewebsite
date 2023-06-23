@@ -1,5 +1,6 @@
 import React from "react";
 import { Input, DatePicker, Select } from "antd";
+import Image from "next/image";
 const { TextArea } = Input;
 //datepicker
 const onChange = (date, dateString) => {
@@ -29,46 +30,52 @@ const BookDemoForm = () => {
 
                 {/* <!-- PHONES --> */}
                 <div className="contact-1-box">
-                  <img
+                  <Image
                     src="/images/alldaydr-logo.png"
-                    height="50"
+                    height={50}
+                    width={125}
                     alt="footer-logo"
                   />
                 </div>
 
                 {/* <!-- WORKING HOURS --> */}
                 <div className="contact-1-box">
-                  <img
+                  <Image
                     src="/images/healthya-logo.png"
-                    height="50"
+                    height={50}
+                    width={125}
                     alt="footer-logo"
                   />
                 </div>
                 <div className="contact-1-box">
-                  <img
+                  <Image
                     src="/images/applocum-logo.png"
-                    height="50"
+                    height={50}
+                    width={125}
                     alt="footer-logo"
                   />
                 </div>
                 <div className="contact-1-box">
-                  <img
+                  <Image
                     src="/images/addvantage.png"
-                    height="50"
+                    height={50}
+                    width={125}
                     alt="footer-logo"
                   />
                 </div>
                 <div className="contact-1-box">
-                  <img
+                  <Image
                     src="/images/coach2health.png"
-                    height="50"
+                    height={50}
+                    width={125}
                     alt="footer-logo"
                   />
                 </div>
                 <div className="contact-1-box">
-                  <img
+                  <Image
                     src="/images/pharmsmart.png"
-                    height="50"
+                    height={50}
+                    width={125}
                     alt="footer-logo"
                   />
                 </div>

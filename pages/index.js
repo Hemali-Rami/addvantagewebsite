@@ -9,7 +9,7 @@ import PharmsmartProduct from "@/components/Home/HomeProducts/PharmsmartProduct"
 import ADDvtangeMindsProduct from "@/components/Home/HomeProducts/ADDvtangeMindsProduct";
 import Homeservices from "@/components/Home/Homeservices";
 import HomeAccreditations from "@/components/Home/HomeAccreditations";
-import { Element, animateScroll as scroll } from "react-scroll";
+import { Element } from "react-scroll";
 import React, { useEffect, useRef, useState } from "react";
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
         localStorage.removeItem("sectionRef");
       }, 400);
     }
-  }, []);
+  }, [section]);
 
   return (
     <>

@@ -1,5 +1,7 @@
 // import { Element } from "react-scroll";
+
 import Link from "next/link";
+import Image from "next/image";
 const brandsecdata = [
   {
     sectiontitle: "AppLocum",
@@ -74,10 +76,12 @@ const ApplocumProduct = () => {
                   data-aos="fade-left"
                   data-aos-delay="400"
                 >
-                  <img
+                  <Image
                     className="img-fluid"
                     src={`/images/${section.secimg}.png`}
                     alt="applocum-content"
+                    width={794}
+                    height={509}
                   />
                 </div>
               </div>

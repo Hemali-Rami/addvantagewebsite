@@ -2382,13 +2382,12 @@
     bottom: 55%;
     display: none;
   }
-  .contactuspagemain{
+  .contactuspagemain {
     overflow: hidden;
   }
-  .form-check{
-    margin:8px 0;
+  .form-check {
+    margin: 8px 0;
   }
-  
 }
 
 /* ------------------------------------------------------------------------ */
@@ -7644,4 +7643,3 @@
     margin-top: 80px;
   }
 }
-

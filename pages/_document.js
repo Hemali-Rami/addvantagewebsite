@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
@@ -86,14 +86,14 @@ export default function Document() {
           href="/favicon-16x16.png"
         />
         <link
-          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=optional"
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900"
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=optional"
           rel="stylesheet"
         />
-        
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>

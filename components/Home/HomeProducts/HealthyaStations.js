@@ -1,23 +1,24 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 const brandsecdata = [
   {
     sectiontitle: "HEALTHYA Stations",
     sectionpara: [
-      <React.Fragment>
+      <>
         <b>You’re in Control -</b> Take control of your key vitals Free for Life
-      </React.Fragment>,
+      </>,
 
-      <React.Fragment>
+      <>
         <b>Complete Flexibility -</b> Find your nearest Health Kiosk,
-      </React.Fragment>,
-      <React.Fragment>
+      </>,
+      <>
         Fast, Reliable & Convenient way to get the coach help you deserve
-      </React.Fragment>,
-      <React.Fragment>
+      </>,
+      <>
         Total flexibility and control of scheduling sessions
-      </React.Fragment>,
-      <React.Fragment>Intuitive and reliable video platform</React.Fragment>,
+      </>,
+      <>Intuitive and reliable video platform</>,
     ],
     btnlink: "/contactus",
     secimg: "health_solutions",
@@ -36,10 +37,17 @@ const HealthyaStations = () => {
                 data-aos="fade-left"
                 data-aos-delay="400"
               >
-                <img
+                {/* <img
                   className="img-fluid"
                   src={`/images/${section.secimg}.png`}
                   alt="Healthya Station-content"
+                /> */}
+                <Image
+                  className="img-fluid"
+                  src={`/images/${section.secimg}.png`}
+                  alt="Healthya Station-content"
+                  width={759}
+                  height={663}
                 />
               </div>
             </div>

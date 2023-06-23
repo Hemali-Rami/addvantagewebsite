@@ -42,7 +42,7 @@
 .full-health-machine-img {
   position: absolute;
   /* bottom: 223px;*/
-  right: 9px; 
+  right: 9px;
   bottom: 118px;
   /* right: -95px; */
   z-index: 0;
@@ -92,6 +92,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   height: 100%;
+  width: auto;
 }
 .android-wrapper img.android-screen {
   transform: translate(calc(-50% - 5px), -50%) scale(0.91);

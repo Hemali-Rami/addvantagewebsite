@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
-
+import Image from "next/image";
 const HomeBanner = () => {
   const [bannerdata, setBannerdata] = useState([]);
   useEffect(() => {
@@ -70,7 +70,13 @@ const HomeBanner = () => {
                   >
                     {/* <!-- PNG Icon --> */}
                     <div className="heroimage">
-                      <img src={`/images/${item.img}.png`} alt={item.alt} />
+                      {/* <img src={`/images/${item.img}.png`} alt={item.alt} /> */}
+                      <Image
+                        src={`/images/${item.img}.png`}
+                        width={150}
+                        height={60}
+                        alt="Picture of the author"
+                      />
                     </div>
                     {/* <!-- Text --> */}
                     <h5 className="h5-xs">{item.title}</h5>
